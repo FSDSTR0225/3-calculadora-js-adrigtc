@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: rgb(152, 156, 156);
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px 10px 5px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  height: 60%;
+  width: 70%;
+}
+
+.display input {
+  font-family: "Orbitron", sans-serif;
+  width: 90%;
+  font-size: 20px;
+  text-align: right;
+  border: none;
+  background-color: rgba(142, 149, 149, 0.471);
+  color: #fff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.btn:active {
+  background-color: #777;
+}
+
+.btn:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+  background-color: #999;
+}
+
+.btn:disabled:active {
+  background-color: #999;
+}
+
+#clear {
+  background-color: rgb(248, 28, 83);
+}
